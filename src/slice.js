@@ -1,4 +1,8 @@
-import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import { createSlice, createAsyncThunk, createEntityAdapter } from "@reduxjs/toolkit";
+
+const productsAdapter = createEntityAdapter();
+
+console.log(productsAdapter)
 
 const initialState = [];
 
